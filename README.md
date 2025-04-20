@@ -57,3 +57,7 @@ The file `Global YouTube Statistics 1.csv` has information like:
 - Ensure the dataset `Global YouTube Statistics 1.csv` is in the project directory.
 - Run the script to train models and view results: ```bash python main.py ```
 - Check the output for: - Best Random Forest and XGBoost parameters - Model performance (R², MSE, MAPE) - Top feature importances
+
+👥 Contributors
+Vanshika,Suraj,Vivek,Supriya,Silpa
+Team: IS 8036 – Spring 2025
