@@ -24,6 +24,31 @@ The file `Global YouTube Statistics 1.csv` has information like:
 ##  File in This Project
 
 - `Global YouTube Statistics 1.csv` — This is the main file with all the YouTube data.
+  
+## 🔧 Data Pipeline Steps
+
+### ✅ Step 1: Data Ingestion
+- Loaded CSV with `ISO-8859-1` encoding
+- Trimmed and standardized column names
+
+### ✅ Step 2: Data Cleaning
+- Removed currency symbols, commas, and invalid placeholders (`N/A`, `-`)
+- Converted numeric-like strings to `float` using `pd.to_numeric`
+- Dropped rows with missing critical numeric fields
+
+### ✅ Step 3: Feature Engineering
+- **Log-transformed** skewed numeric features (e.g., `subscribers`, `video_views`)
+- One-hot encoded categorical variables like `country`, `channel_type`, and `category`
+- Added `rating_count` as a proxy for popularity
+
+### ✅ Step 4: Modeling Preparation
+- Defined `X` (features) and `y` (target: `lowest_yearly_earnings`)
+- Scaled numeric data and encoded categorical data using `ColumnTransformer`
+## 🧠 Project Goals
+
+- Predict annual earnings of YouTube creators
+- Understand key drivers behind income potential
+- Build a scalable, clean, and interpretable dataset for ML
 
 ## How to Use It
 
