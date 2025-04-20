@@ -60,4 +60,4 @@ The file `Global YouTube Statistics 1.csv` has information like:
 
 👥 Contributors
 Vanshika,Suraj,Vivek,Supriya,Silpa
-Team: IS 8036 – Spring 2025
+Team: BANA 7075 – Spring 2025
