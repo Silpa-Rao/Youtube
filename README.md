@@ -28,7 +28,7 @@ The file `Global YouTube Statistics 1.csv` has information like:
 ## 🔧 Data Pipeline Steps
 
 ### ✅ Step 1: Data Ingestion
-- Loaded CSV with `ISO-8859-1` encoding
+- Loaded CSV with encoding
 - Trimmed and standardized column names
 
 ### ✅ Step 2: Data Cleaning
