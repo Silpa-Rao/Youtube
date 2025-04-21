@@ -44,8 +44,8 @@ The file `Global YouTube Statistics 1.csv` has information like:
 ### ✅ Step 4: Modeling Preparation
 - Defined `X` (features) and `y` (target: `lowest_yearly_earnings`)
 - Scaled numeric data and encoded categorical data using `ColumnTransformer`
+  
 ## 🧠 Project Goals
-
 - Predict annual earnings of YouTube creators
 - Understand key drivers behind income potential
 - Build a scalable, clean, and interpretable dataset for ML
@@ -59,5 +59,5 @@ The file `Global YouTube Statistics 1.csv` has information like:
 - Check the output for: - Best Random Forest and XGBoost parameters - Model performance (R², MSE, MAPE) - Top feature importances
 
 👥 Contributors
-Vanshika,Suraj,Vivek,Supriya,Silpa
+Vanshika,Suraj Singh,Vivek,Supriya,Silpa
 Team: BANA 7075 – Spring 2025
