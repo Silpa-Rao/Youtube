@@ -60,9 +60,19 @@ The file `Global YouTube Statistics.csv` has information like:
 - Understand key drivers behind income potential
 - Build a scalable, clean, and interpretable dataset for ML
 
-## How to Use It
+# 🎥 YouTube Channel Earnings Predictor
 
-- Clone the repository: ```bash git clone https://github.com/your-username/your-repo-name.git cd your-repo-name ```
+A machine learning-powered tool to predict the **lowest yearly earnings** of a YouTube channel based on channel metadata and country statistics.
+
+---
+
+## 🚀 How to Use This Project
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+```
 - Install required packages: ```bash pip install numpy pandas scikit-learn xgboost mlflow fastapi uvicorn streamlit ```
 - Ensure the dataset `Global YouTube Statistics.csv` is in the project directory.
 - Run the script to train models and view results: ```bash python main.py ```
