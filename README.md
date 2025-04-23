@@ -129,7 +129,7 @@ Then open http://127.0.0.1:8000/docs in your browser.
 ### To view the streamlit user interface
 streamlit run app.py
 
-🔢 ###Feature Overview
+🔢 Feature Overview
 Categorical columns: category, channel_type, Country
 
 Numerical columns: Gross tertiary education enrollment (%), uploads, video views, video_views_rank, Population, Urban_population, country_rank, channel_type_rank, video_views_for_the_last_30_days, Unemployment rate
