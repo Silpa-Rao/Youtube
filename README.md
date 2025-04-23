@@ -76,15 +76,19 @@ A machine learning-powered tool to predict the **lowest yearly earnings** of a Y
 
 2. **Install Required Packages**
 Ensure you have Python installed, then run:
-```pip install numpy pandas scikit-learn xgboost mlflow fastapi uvicorn streamlit
+```bash
+   pip install numpy pandas scikit-learn xgboost mlflow fastapi uvicorn streamlit
 ```
 3. **Add the Dataset**
 Place the file Global YouTube Statistics.csv in the root project directory.
-```python main.py```
+```bash
+   python main.py
+```
 
-4. **Run the Training Script**
+5. **Run the Training Script**
 To train models and display performance results:
-```python main.py
+```bash
+   python main.py
 ```
 5. **Check the Output For:**
 Best parameters for Random Forest and XGBoost
@@ -93,10 +97,12 @@ Feature importances
 
 6.**Activate the Virtual Environment**
 In PowerShell:
-```Scripts\Activate.ps1
+```bash
+   Scripts\Activate.ps1
 ```
 7.**Launch the FastAPI Interface**
-```uvicorn main:app --reload
+```bash
+   uvicorn main:app --reload
 ```
 Then open http://127.0.0.1:8000/docs in your browser.
 
