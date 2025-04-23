@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1745376169762
+current_stage: None
+description: null
+last_updated_timestamp: 1745376169762
+name: YouTubeEarningsXGBoost
+run_id: ff0ca8382be04531bb45842d89473b1a
+run_link: null
+source: file:///C:/Users/vivek-pc/Python/MLDesign_FinalProject/mlruns/715297366243983033/ff0ca8382be04531bb45842d89473b1a/artifacts/xgb_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/vivek-pc/Python/MLDesign_FinalProject/mlruns/715297366243983033/ff0ca8382be04531bb45842d89473b1a/artifacts/xgb_model
+user_id: null
+version: 2

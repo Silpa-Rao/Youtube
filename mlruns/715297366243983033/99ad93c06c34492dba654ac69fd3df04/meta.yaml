@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/vivek-pc/Python/MLDesign_FinalProject/mlruns/715297366243983033/99ad93c06c34492dba654ac69fd3df04/artifacts
+end_time: 1745375972105
+entry_point_name: ''
+experiment_id: '715297366243983033'
+lifecycle_stage: active
+run_id: 99ad93c06c34492dba654ac69fd3df04
+run_name: XGBoost Tuned Model
+run_uuid: 99ad93c06c34492dba654ac69fd3df04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745375942341
+status: 3
+tags: []
+user_id: vivek-pc
