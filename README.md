@@ -69,28 +69,29 @@ The file `Global YouTube Statistics.csv` has information like:
 - Check the output for: - Best Random Forest and XGBoost parameters - Model performance (R², MSE, MAPE) - Top feature importances
 - Open bash in venv folder and type 'Scripts/Activate.psl'
 - To view the FastAPI Run cmd 'uvicorn main:app --reload' and Open http://127.0.0.1:8000/docs in your browser.
-- Json format
-  ```json
+### JSON Format
+
+```json
 {
-"data": {
-"Gross tertiary education enrollment (%)": 68.5,
-"uploads": 120,
-"video views": 12345678,
-"video_views_rank": 450,
-"Population": 9800000,
-"Urban_population": 7200000,
-"subscribers": 256000,
-"subscribers_for_last_30_days": 4800,
-"country_rank": 42,
-"channel_type_rank": 5,
-"video_views_for_the_last_30_days": 530000,
-"Unemployment rate": 5.2,
-"category": "Music",
-"channel_type": "Individual",
-"Country": "US"
+  "data": {
+    "Gross tertiary education enrollment (%)": 68.5,
+    "uploads": 120,
+    "video views": 12345678,
+    "video_views_rank": 450,
+    "Population": 9800000,
+    "Urban_population": 7200000,
+    "subscribers": 256000,
+    "subscribers_for_last_30_days": 4800,
+    "country_rank": 42,
+    "channel_type_rank": 5,
+    "video_views_for_the_last_30_days": 530000,
+    "Unemployment rate": 5.2,
+    "category": "Music",
+    "channel_type": "Individual",
+    "Country": "US"
+  }
 }
-}
-```
+
 - To view the streamlit user interface Run cmd 'streamlit run app.py'
 - Categorical columns : {category, channel_type, Country}
 - Numerical columns : {Gross tertiary education enrollment (%), uploads, video views, video_views_rank, Population, Urban_population, subscribers, Subscribers_for_last_30_days,  
