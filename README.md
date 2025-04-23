@@ -81,9 +81,6 @@ Ensure you have Python installed, then run:
 ```
 3. **Add the Dataset**
 Place the file Global YouTube Statistics.csv in the root project directory.
-```bash
-   python main.py
-```
 
 5. **Run the Training Script**
 To train models and display performance results:
