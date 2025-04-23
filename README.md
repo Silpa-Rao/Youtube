@@ -91,7 +91,7 @@ The file `Global YouTube Statistics.csv` has information like:
     "Country": "US"
   }
 }
-
+```
 # To view the streamlit user interface
 streamlit run app.py
 
