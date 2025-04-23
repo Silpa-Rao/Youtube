@@ -92,11 +92,15 @@ The file `Global YouTube Statistics.csv` has information like:
   }
 }
 
-- To view the streamlit user interface Run cmd 'streamlit run app.py'
-- Categorical columns : {category, channel_type, Country}
-- Numerical columns : {Gross tertiary education enrollment (%), uploads, video views, video_views_rank, Population, Urban_population, subscribers, Subscribers_for_last_30_days,  
-  country_rank, channel_type_rank, video_views_for_the_last_30_days, Unemployment rate}
+# To view the streamlit user interface
+streamlit run app.py
 
-👥 Contributors
-Vanshika,Suraj Singh,Vivek,Supriya,Silpa
+# Categorical columns
+category, channel_type, Country
+
+# Numerical columns
+Gross tertiary education enrollment (%), uploads, video views, video_views_rank, Population, Urban_population, country_rank, channel_type_rank, video_views_for_the_last_30_days, Unemployment rate
+
+👥 Contributors:
+Vanshika, Suraj Singh, Vivek, Supriya, Silpa
 Team: BANA 7075 – Spring 2025
